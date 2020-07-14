@@ -37,16 +37,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AgoraIO/OpenAgoraWeb-React.git"
+    "url": "git+https://github.com/mmortara-capicua/video-poc-agora-re-store"
   },
   "keywords": [
     "ReactJS",
     "AgoraSDK",
     "VideoCall"
   ],
-  "author": "Hao Yang <haoyang@agora.io>",
+  "author": "mmortara",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AgoraIO/OpenAgoraWeb-React/issues"
+    "url": "https://github.com/mmortara-capicua/video-poc-agora-re-store"
   }
 }
