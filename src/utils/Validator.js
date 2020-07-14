@@ -8,6 +8,7 @@ export default {
       1 : 0
   },
   validChar(value) {
+    // eslint-disable-next-line no-useless-escape
     return !/^[0-9a-zA-Z\_]+$/.test(value) ?
       1 : 0
   },

@@ -1,11 +1,12 @@
-import React from 'react'
-import * as Cookies from 'js-cookie'
-
 import '../../assets/fonts/css/icons.css'
-import Validator from '../../utils/Validator'
-import { RESOLUTION_ARR } from '../../utils/Settings'
 import './index.css'
 
+import * as Cookies from 'js-cookie'
+
+import { RESOLUTION_ARR } from '../../utils/Settings'
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React from 'react'
+import Validator from '../../utils/Validator'
 
 class Index extends React.Component {
   constructor(props) {
@@ -60,7 +61,7 @@ class Index extends React.Component {
           <section className="login-wrapper">
             <div className="login-header">
               <img src={require('../../assets/images/ag-logo.png')} alt="" />
-              <p className="login-title">AgoraWeb v2.1</p>
+              {/* <p className="login-title">AgoraWeb v2.1</p> */}
               <p className="login-subtitle">Powering Real-Time Communications</p>
             </div>
             <div className="login-body">

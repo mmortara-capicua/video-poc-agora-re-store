@@ -1,7 +1,8 @@
+import * as serviceWorker from './serviceWorker';
+
+import App from './pages/App';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './pages/App';
-import * as serviceWorker from './serviceWorker';
 
 const polyfill = (() => {
   // Object.entries
